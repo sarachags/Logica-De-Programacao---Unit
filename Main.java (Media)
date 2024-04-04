@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner entrada = new Scanner(System.in);
+	    
+	    int nota1;
+	    int nota2;
+	    int media;
+	    
+	    System.out.print("Digite a primeira nota: ");
+	    nota1 = entrada.nextInt();
+	    
+	    System.out.print("Digite a segunda nota: ");
+	    nota2 = entrada.nextInt();
+	    
+    	media = (nota1 + nota2)/2;
+	    
+	    if (media >= 7) {
+	        System.out.print("Aluno Aprovado");
+	    }
+	    else {
+	        System.out.print("Aluno Reprovado");
+	    }
+	    
+	}
+}
