@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner open = new Scanner(System.in);
+	    
+	    System.out.println("Escreva o nome do usuario");
+	    String user = open.nextLine();
+	    
+		System.out.println("Escreva a senha");
+	    String pass = open.nextLine();
+		
+		String passTrue = ("One Wundred");
+		String userTrue = ("Jhonn");
+		
+		if (user == userTrue && pass == passTrue){
+		    System.out.println("Válido");
+		}
+	}
+}
